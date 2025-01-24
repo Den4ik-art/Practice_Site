@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Upright:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*General style*/
+body {
+    font-family: "Montserrat", serif;
+    font-size: 1em;
+}
+
+
+/*Header style*/
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.menu-item {
+    margin-left: 3.1em;
+}
+
+.blue-button {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8rem;
+    margin-left: 1.3em;
+}
+
+.blue-button:hover {
+    cursor: pointer;
+}
+
+/*First screen*/
+
+.first-screen {
+    background-image: url('./assets/img/Frame\ 12146\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.first-screen-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6.56em;
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 4.06em;
+    line-height: 1;
+    color: white;
+}
+
+.main-description {
+    font-size: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 65%;
+}
+
+.white-button {
+    border-width: 0;
+    background-color: white;
+    margin-left: 0;
+    width: 35%;
+    font-family: inherit;
+    font-size: 1.1rem;
+}
+
+/*Description screen*/
+.description-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10em 14em;
+}
+
+.desc-title-name {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.8rem;
+    line-height: 1.3;
+}
+
+.desc-title-goal {
+    font-size: 1.7em;
+    line-height: 1.7;
+}
+
+.desc-title-text {
+    line-height: 1.5;
+    font-size: 1.2em;
+    color: #73A6B1;
+}
+
+.description-block {
+    background-color: #F1FDFF;
+    display: flex;
+    padding: 2.5em 3.9em;
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+    margin-bottom: 3.1em;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4em;
+}
+
+.description-header {
+    text-transform: uppercase;
+    font-size: 2.9rem;
+    line-height: 1.2;
+}
+
+.description-text {
+    font-size: 1.25em;
+    line-height: 1.2;
+}
+
+.description-img {
+    border-radius: 10px;
+}
+
+.center-button {
+    font-family: inherit;
+    font-size: 1.1rem;
+    border-width: 0;
+    margin-left: 0;
+    margin-top: 3.15rem;
+    margin-bottom: 10rem;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+/*goal screen*/
+.goal-screen {
+    background-color: #F1FDFF;
+    margin: 13.8rem 5.5rem;
+    display: flex;
+    padding: 6rem 4rem;
+    position: relative;
+}
+
+.goal-text {
+    font-size: 1.7em;
+    width: 40%;
+}
+
+.goal-img-back {
+    position: absolute;
+    bottom: 1rem;
+}
+
+.goal-img {
+    position: absolute;
+    bottom: 0;
+    right: 12rem;
+}
+
+/*Donation screen*/
+.donation-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collect_donation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donation-text {
+    margin-top: 0.95rem;
+}
+
+.collect_donation_header {
+    font-size: 3.8em;
+}
+
+.donation-goal {
+    margin-top: 3.15rem;
+    margin-bottom: 1.05rem;
+}
+
+.blue-line {
+    display: inline-block;
+    background-color: #9AD2DE;
+    width: 0.15rem;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Footer screen*/
+.footer-screen {
+    background-color: #F9FADF;
+    padding: 3.15rem 4.45rem;
+    padding-bottom: 10rem;
+}
+
+.phone-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.1rem;
+}
+
+.bold-phone {
+    font-weight: 700;
+}
+
+.contact-info, .contact-header {
+    width: 46.5%;
+}
+
+.contact-text {
+    width: 73.6%;
+}
+
+/*form style*/
+.email-img-form {
+    display: flex;
+    background-color: white;
+    padding: 3.75rem;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.8rem;
+}
+
+.email-img {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.title-form {
+    line-height: 1.1;
+    margin-bottom: 2.45rem;
+}
+
+.input-fields {
+    background-color: #F9FADF;
+    border-width: 0;
+    font-size: 1.4rem;
+    margin-bottom: 1.94rem;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8rem;
+}
+
+.submit-form-button {
+    margin: 0; 
+}
